@@ -1,1 +1,7 @@
 "homepage": "https://<shagunnmishra>.github.io/TaskFlow-Manager"
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
